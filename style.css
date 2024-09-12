@@ -8,11 +8,12 @@ body{
     height: 100vh;
     overflow: hidden;
     background: linear-gradient(to top right, rgb(71, 71, 152) ,rgb(159, 243, 159));
+    background-position: center;
+    background-size: cover;
 }
 .main{
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
     height: auto;
     width: auto;
@@ -25,13 +26,16 @@ body{
 .height,
 .weight
 {
-    width: 80%;
+    width: 100%;
     box-sizing: border-box;
     padding: 10px;
     border-radius: 2px;
     border: none;
     background-color: rgba(255, 255, 255, 0.623);
     
+}
+.main p{
+
 }
 h2{
     text-align: center;
@@ -40,7 +44,7 @@ h2{
 
 .button-calculate{
     margin: 15px 0;
-    width: 80%;
+    width: 100%;
     padding: 10px;
     cursor: pointer;
     border-radius: 2px;
@@ -53,11 +57,12 @@ h2{
 }
 .value-final{
     background-color: white;
-    width: 74.5%;
+    width: 100%;
     padding: 10px;
     cursor: pointer;
     border-radius: 2px;
     border: none;
+    box-sizing: border-box;
 }
 .final-output{
     font-size: 20px;
